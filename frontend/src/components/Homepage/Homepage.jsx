@@ -24,6 +24,8 @@ function Homepage() {
   }, [])
 
   function submit() {
+    console.log("lécciműködj")
+    /*
     //POST request-et küldök az adatokkal
     fetch('./data/data.json', {
       method: 'POST',
@@ -35,6 +37,7 @@ function Homepage() {
     }).then(response => setRes(true))
       .catch(err => setRes(false))
       .finally(() => setTimeout(setFormShow(false), 10000))
+      */
   }
 
   return (
