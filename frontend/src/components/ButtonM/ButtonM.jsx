@@ -14,10 +14,10 @@ const MyButton = styled(Button)({
   boxShadow: '0 3px 5px 2px rgba(10, 100, 50, .3)',
 });
 
-function ButtonM() {
+function ButtonM(props) {
   return (
     <div>
-      <MyButton>Button</MyButton>
+      <MyButton disabled={props.dis} onClick={props.click}>{props.text}</MyButton>
     </div>
   )
 }

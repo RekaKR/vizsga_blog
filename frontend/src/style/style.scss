@@ -5,4 +5,11 @@
   h1 {
     color: $color;
   }
+
+  .post {
+    min-height: 150px;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 25px;
+  }
 }
