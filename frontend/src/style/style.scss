@@ -1,0 +1,8 @@
+@use 'reset';
+@use 'variables' as *;
+
+.homepage {
+  h1 {
+    color: $color;
+  }
+}
