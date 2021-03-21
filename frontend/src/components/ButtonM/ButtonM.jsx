@@ -6,6 +6,7 @@ const MyButton = styled(Button)({
   height: 48,
   color: 'red',
   background: 'linear-gradient(45deg, lightblue 30%, gray 90%)',
+  margin: '5px',
   padding: '0 30px',
   letterSpacing: '5px',
   fontSize: '24px',
@@ -23,3 +24,14 @@ function ButtonM(props) {
 }
 
 export default ButtonM
+
+
+/*
+function ButtonM() {
+  return (
+    <div>
+      <MyButton>Button</MyButton>
+    </div>
+  )
+}
+*/
