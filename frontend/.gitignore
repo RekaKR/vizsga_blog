@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# valami
-/build
-
 # misc
 .DS_Store
 .env.local
