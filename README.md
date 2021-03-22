@@ -1,6 +1,6 @@
 # vizsga_blog
 
-It is a live-coding material I held regards React, material-ui, styled-components, github pages, Docker.
+It is a live-coding material I held regards React, material-ui, styled-components, github pages, Docker. With no special style.
 
 ## Codes
 React: npx create-react-app frontend \
